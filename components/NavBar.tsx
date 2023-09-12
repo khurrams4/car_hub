@@ -1,8 +1,10 @@
-import React from 'react'
+import Link from "next/link";
+import Image from "next/image";
 
+import customButton from "./CustomButton";
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+   <header className="w-full absolute z-10 "></header>
   )
 }
 
